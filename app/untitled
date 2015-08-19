@@ -1,0 +1,1 @@
+insert into offers (title, vendor_id, validity,value) values ('an excitingasdasdasd offer',1,'20150901',500)

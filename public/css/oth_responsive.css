@@ -1,0 +1,176 @@
+@media only screen and (min-width: 1281px) and (max-width: 1600px){
+	.container-fluid {
+		width:1280px !important;
+	}
+}
+
+/*  http://jsbin.com/OjOTIGaP/1/edit?html,css,output  responsive menu*/
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+
+
+	
+	/* home page */
+	.bgImage{
+		height:600px;width:100%;
+	}
+	.companyLogosMobile{
+		display: block;
+		background:#fff;
+		overflow: hidden;
+		margin-top:100px;
+	}
+	.companyLogos{
+		display: none;
+	}
+	.circleHome{
+		margin-top:25px;
+	}
+	.onTopHomeImageContent{
+		width:95%;
+		margin: 0 auto;
+		margin-top:50px;
+		height: 100%;
+		padding: 20px 10px;
+	}
+	.onTopHomeImageContent .othLogo{
+		margin: 15px 0px;
+	}
+	.onTopHomeImageContent span{
+		line-height: 16px;
+	}
+
+	.howToavail{
+		padding:0px;
+	}
+	.availHeader{
+		width: 95%;
+		font-size: 20px;
+		margin:0 auto;
+		margin:30px 10px;
+		    text-align: center;
+	}
+	.tiles{
+		margin-bottom:10px;
+	}
+	/*.tiles .col-xs-3 img{
+		width: 135%;
+	}*/
+	.tiles .text{
+		    padding-top: 0px;
+    		line-height: 20px;
+	}
+	.homePage .companyLogos{
+		height: auto;
+		padding:15px 0px;
+	}
+	.companyLogos .partners, .companyLogos .viewMore{
+		padding-top:0px;
+
+	}
+
+
+	/*login */
+
+	.socialLogin, .loginForm{
+		margin: 0 auto;
+	}
+
+	.socialLogin span{
+		text-align: center;
+		margin: 0 auto ;
+	}
+
+	.loginhead{
+		padding:0;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.socialLoginMobile{
+		display: block;
+		width: 65%;
+		padding-bottom:20px;
+	}
+
+	.socialLogin{
+		display: none;
+	}
+	.permissopnMobile{
+		margin-top:20px;
+		height: auto
+	}
+	.permissopnMobile span{
+		font-family: OpenSans;
+		color:  rgba(132, 132, 132, 0.5);
+		font-size: 12px;/* Approximation due to font substitution */
+		font-weight: 400;
+		line-height: 14px;
+		display: block;
+	
+	}
+
+
+
+	/* dashboard*/
+	.dashboard, .tableWrap, .thankYou,  .thankYou .tableWrap {
+		width:100% !important;
+		margin: 0 auto;
+	}
+	.dashboard .table tr th{
+		border-top:1px solid #cdcdcd;
+		border-bottom:1px solid #cdcdcd;
+	}
+	.dashboard .table tr:last-child{
+		border-bottom:1px solid #cdcdcd;
+	}
+
+
+	/* offer page*/
+	.offersPageDT{
+		width: 100%;
+	}
+	.offerImgWrap, .offerImgWrap .col-md-12 img{
+	    height: 172px !important;
+	    width: 100%;
+	}
+	.offerImgWrap{
+		margin-bottom: 15px;
+	}
+
+	.offerImgTopInfo{
+		display: none;
+	}
+	.offerTilesWrap .col-md-4{
+		padding:0px;
+	}
+
+	.mobileOfferInfoDetails{
+		display: block;
+		padding:5px;
+		position: relative;
+		height: 172px;
+		border:1px solid #cdcdcd;
+	}	
+	.mobileOfferInfoDetails .col-xs-12{
+		font-size:16px;
+		line-height: 16px;
+		padding:5px 5px !important;
+	}
+	.mobileOfferInfoDetails .col-xs-12 img{
+		width: 35%;
+	}
+
+	.mobileOfferInfoDetails .offerText .vp{
+		font-size: 12px;
+		margin:2px 0px;
+	}
+	.mobileOfferInfoDetails input{
+		position: absolute;
+		bottom: 3px;
+		right:3px;
+	    width: 85px !important;
+	    font-size: 12px !important;
+	    height: 24px;
+	}
+
+}
